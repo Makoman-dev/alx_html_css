@@ -4,15 +4,18 @@ body, main {
 
 body {
     flex-direction: column;
+    background-color: bisque;
     
 }
 
 main {
     flex-direction: row;
-    flex: auto
+    flex: auto;
+    background-color: whitesmoke;
 }
 article {
     flex: 2;
+    background-color: azure;
 }
 aside {
     flex: 1;
