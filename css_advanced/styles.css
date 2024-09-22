@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+  }
+  
+body {
+    background-image: linear-gradient(to bottom, rgba(26, 32, 44, 0.6), rgb(0, 0, 0)), url(Object.png);
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+  
+  
+  header {
+    padding: 25px 40px;
+  }
+  
+  header nav,
+  ul {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  ul li {
+    margin: 0 20px;
+    list-style: none;
+  }
+  
+  li a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+.content {
+    padding: 100px 0;
+}
+h1 {
+    text-align: center;
+    font-size: 4.5em;
+    color: #fff;
+}
+
+.btnhappy{
+    display: flex;
+    flex-direction:column;
+}
+.happy {
+   
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+}
+.happy, span {
+    margin: 0 20px;
+    font-weight: bold;
+}
+button {
+    align-self: center;
+    padding: 10px 20px;
+    background-color: #c271ff;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 10px 12px 55px -21px rgba(0, 0, 0, 0.75);
+  }
+  
+  button:hover {
+    background-color: #994cff; /* Darker shade of the original color */
+  }
+.pros {
+    margin: 220px 0 30px 0;
+
+}
+.pros > h2 {
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+}
+h2 > span {
+    margin: 0;
+    font-weight: bold;
+    color: #c271ff;
+}
+.whopros {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 80px 60px 0px 60px;
+}
+.whopros > div {
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+.whopros > div > img {
+    border-radius: 100px;
+}
+.whopros > div > h3 {
+    font-size: 0.75em;
+}
+.whopros > div > p {
+    font-size: 0.75em;
+}
+.content2 {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    background-color:#c271ff;
+    justify-content: center;
+    width: 100%;
+    height: 400px;
+    align-items: center;
+}
+.content2 > div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding: 20px;
+}
+.content3 {
+    background-color: white;
+    padding: 40px 0 0 0;
+}
+.content3 > h2 {
+    text-align: center;
+    font-weight: 100;
+    padding: 20px 0;
+}
+
+h2 span {
+    color: #c271ff;
+}
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 50px 0;
+    gap: 10px;
+}
+
+#stars {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    color: #c271ff;
+    width: 107px;
+    height: 15px;
+}
+
+#black {
+    color: #d8d8d8;
+}
+
+h4 {
+    color: #c271ff;
+    align-self: center;
+}
+
+.container div {
+    width: 255px;
+    margin: 10px 0 10px 0;
+}
+.container div img {
+border-radius: 15px;
+}
+#name {
+display: flex;
+flex-direction: row;
+gap: 10px;
+}
+.container div div p {
+padding: 10px 0 0 0;
+}
+#starmin {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+#starmin p {
+    align-self: center;
+    padding: 0;
+    color: #c271ff;
+}
+.content4 {
+    background-color: #071629;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 502px;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+.content4 h2 {
+    font-weight: lighter;
+}
+.content4 h2 span {
+    color:#c271ff;
+}
+#smile div {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    width: 155px;
+    height: 260px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 60px;
+    gap: 20px;
+}
+
+
+#smile div img {
+    width: 45px;
+    height: 35px;
+
+}
+#smile {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.faq {
+    display: flex;
+    flex-direction: column;
+    background-color:whitesmoke;
+    padding: 40px 100px;
+    text-align: center;
+    gap: 50px;
+}
+.faq > div {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.faq > div > div {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: left;
+}
+footer {
+    display: flex;
+    background-color: #071629;
+    height: 250px;
+    color: white;
+    align-items: center;
+    padding: 0 50px;
+}
+
+footer section {
+    width: 100%;
+    display: flex;
+    color: white;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%; 
+}
+
+footer section div { 
+display: flex;
+flex-direction: row;
+gap: 20px;
+align-items: center;
+}
