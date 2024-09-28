@@ -1,0 +1,1 @@
+This file is associated with a figma design to design a pc, tablet and phone layout design 
